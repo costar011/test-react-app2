@@ -20,12 +20,6 @@ const TodoListTemplate = ({form, children}) => {
 /**
  *
  * 
- * 이 컴포넌트는 함수형 컴포넌트
- * 파라미터로 받게 되는것은 props 인데
- * 이를 비구조화 할당 하여 원래 (props) => { ... } 를 해야 하는것을
- * ({form, children}) => { ... } 형태로 작성이 컴포넌트는 두가지의 props 를 받게 된다
- * 
- * children 의 경우엔 나중에 우리가 이 컴포넌트를 사용하게 될 때
  * 
  * <TodoListTemplate>여기에 있는 내용!</TodoListTemplate>
  * 
