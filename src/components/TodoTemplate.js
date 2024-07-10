@@ -1,20 +1,15 @@
-import React from 'react';
-import './TodoListTemplate.css';
+import React, { Component } from 'react';
 
-const TodoListTemplate = ({form, children}) => {
-  return (
-    <main className="todo-list-template">
-      <div className="title">
-        오늘 할 일
+class TodoItemList extends Component {
+  render() {
+    const { todos, onToggle, onRemove } = this.props;
+
+    return (
+      <div>
+
       </div>
-      <section className="form-wrapper">
-        {form}
-      </section>
-      <section className="todos-wrapper">
-        { children }
-      </section>
-    </main>
-  );
-};
+    );
+  }
+}
 
-export default TodoListTemplate;
+export default TodoItemList;
